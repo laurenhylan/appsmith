@@ -66,7 +66,8 @@ function App() {
 
 	const handleReset = () => {
 		setCurrentIndex(0);
-		appsmith.triggerEvent("onResetClick");
+		//appsmith.triggerEvent("ResetClick");
+      appsmith.triggerEvent("onResetClick"); 
 	};
 
 	return (
